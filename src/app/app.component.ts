@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngcc-test';
+  
+  devs = [
+    { name: "Scott", status: "creating awesome things"},
+    { name: "Matt",  status: "making cool things"},
+    { name: "Jeremy", status: "building wonderful stuff"},
+  ];
+
 }

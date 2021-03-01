@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CdsModule } from '@cds/angular';
 
 import { AppComponent } from './app.component';
 
@@ -7,9 +8,7 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, CdsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
